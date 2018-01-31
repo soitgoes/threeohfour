@@ -4,7 +4,7 @@
   "description": "304 redirector. That's it's whole job",
   "main": "app.js",
   "bin": {
-    "curlstarter": "app.js"
+    "threeohfour": "app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
