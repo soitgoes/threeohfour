@@ -18,7 +18,10 @@ if (!program.url){
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.redirect(program.url))
+app.get('/', (req, res) => {
+  console.log('Redirecting from:'  + req.url);
+  res.redirect(program.url)
+})
 
 var port = program.port ? program.port : 8989;
 app.listen(port, () => console.log(`ThreeOhFour Redirector listening on port ${port}!`))
