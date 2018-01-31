@@ -1,0 +1,22 @@
+{
+  "name": "threeohfour",
+  "version": "1.0.1",
+  "description": "304 redirector. That's it's whole job",
+  "main": "app.js",
+  "bin": {
+    "curlstarter": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "304",
+    "redirect"
+  ],
+  "author": "Martin Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "bogart": "^0.7.3",
+    "commander": "^2.13.0"
+  }
+}
