@@ -1,4 +1,6 @@
-var bogart  = require('bogart')
+#!/usr/bin/env node
+
+var bogart  = require('bogart-edge')
 var program = require('commander')
 var args = process.argv
 var router = bogart.router()
