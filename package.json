@@ -1,6 +1,6 @@
 {
   "name": "threeohfour",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "304 redirector. That's it's whole job",
   "main": "app.js",
   "bin": {
@@ -16,7 +16,7 @@
   "author": "Martin Murphy",
   "license": "MIT",
   "dependencies": {
-    "bogart-edge": "^0.7.3",
-    "commander": "^2.13.0"
+    "commander": "^2.13.0",
+    "express": "^4.16.2"
   }
 }
